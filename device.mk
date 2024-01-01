@@ -41,3 +41,7 @@ PRODUCT_COPY_FILES += \
 
 # Inherit proprietary targets
 $(call inherit-product, vendor/xiaomi/miatoll/miatoll-vendor.mk)
+
+#GAPPS
+GAPPS_VARIANT := micro
+$(call inherit-product, vendor/opengapps/build/opengapps-packages.mk)
