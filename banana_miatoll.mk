@@ -5,7 +5,7 @@
 #
 
 $(call inherit-product, device/xiaomi/miatoll/device.mk)
-$(call inherit-product, vendor/banana/config/common_full_phone.mk)
+$(call inherit-product, vendor/banana/config/common.mk)
 
 PRODUCT_NAME := banana_miatoll
 PRODUCT_DEVICE := miatoll
