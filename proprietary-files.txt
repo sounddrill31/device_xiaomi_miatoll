@@ -42,3 +42,9 @@ vendor/lib64/camera/com.qti.tuned.ofilm_s5kgw1.bin|0223771138a3c43a29ca1867b75f5
 
 # NFC
 vendor/lib/libpn553_fw.so|a8e29cc3ebb2e0df0fb505fc2da9c69a015680fb
+
+# Faceunlock
+system/lib/libFaceDetectCA.so
+system/lib/libmegface.so
+system/lib/libMegviiUnlock.so
+system/lib/libMegviiUnlock-jni-1.2.so
