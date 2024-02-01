@@ -5,6 +5,7 @@
 #
 
 DEVICE_PATH := device/xiaomi/miatoll
+KERNEL_PATH := $(DEVICE_PATH)-kernel
 
 BUILD_BROKEN_DUP_RULES := true
 BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
@@ -125,6 +126,18 @@ BOARD_KERNEL_CMDLINE += msm_rtb.filter=0x237
 BOARD_KERNEL_CMDLINE += service_locator.enable=1
 BOARD_KERNEL_CMDLINE += swiotlb=1
 BOARD_KERNEL_CMDLINE += kpti=off
+
+# DTB
+#BOARD_PREBUILT_DTBOIMAGE := $(KERNEL_PATH)/dtbo.img
+BOARD_PREBUILT_DTBIMAGE_DIR := $(KERNEL_PATH)
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)-kernel/dtbo.img:dtbo.img
+
+# Kernel
+TARGET_NO_KERNEL_OVERRIDE := true
+LOCAL_KERNEL := $(KERNEL_PATH)/Image
+PRODUCT_COPY_FILES += \
+	$(LOCAL_KERNEL):kernel
 
 # OTA assert
 TARGET_OTA_ASSERT_DEVICE := curtana,excalibur,gram,joyeuse,miatoll
