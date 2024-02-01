@@ -15,11 +15,13 @@
     "repository": "crdroidandroid/android_kernel_xiaomi_sm6250",
     "target_path": "kernel/xiaomi/miatoll",
     "branch": "14.0"
+    "remote": "github"
   },
   {
     "repository": "WAR-DEPT/vendor_xiaomi_miatoll",
     "target_path": "vendor/xiaomi/miatoll",
     "branch": "14.0"
+    "remote": "github"
   },
   {
     "repository": "Panchajanya1999/azure-clang",
