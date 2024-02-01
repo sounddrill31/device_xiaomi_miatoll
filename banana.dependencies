@@ -12,9 +12,9 @@
     "remote": "github"
   },
   {
-    "repository": "WAR-DEPT/android_kernel_xiaomi_sm6250",
+    "repository": "crdroidandroid/android_kernel_xiaomi_sm6250",
     "target_path": "kernel/xiaomi/miatoll",
-    "branch": "RedCherry-"
+    "branch": "14.0"
   },
   {
     "repository": "WAR-DEPT/vendor_xiaomi_miatoll",
