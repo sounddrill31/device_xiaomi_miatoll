@@ -20,8 +20,7 @@
     "repository": "WAR-DEPT/vendor_xiaomi_miatoll",
     "target_path": "vendor/xiaomi/miatoll",
     "branch": "14.0"
-  }
-]
+  },
   {
     "repository": "Panchajanya1999/azure-clang",
     "target_path": "prebuilts/clang/host/linux-x86/clang-14.0",
