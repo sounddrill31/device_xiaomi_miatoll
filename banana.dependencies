@@ -22,3 +22,10 @@
     "branch": "14.0"
   }
 ]
+  {
+    "repository": "Panchajanya1999/azure-clang",
+    "target_path": "prebuilts/clang/host/linux-x86/clang-14.0",
+    "branch": "main",
+    "remote": "github"
+  }
+]
